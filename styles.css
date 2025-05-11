@@ -1,0 +1,32 @@
+@import url(https://fonts.bunny.net/css?family=allerta:400);
+
+:root {
+  --logo-font: 'Allerta', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  width: 500px;
+  height: 100vh;
+
+  background-image: url(./images/wall.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.right {
+}
