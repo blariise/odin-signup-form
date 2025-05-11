@@ -111,3 +111,34 @@
   border-color: blue;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 10px 0px;
 }
+
+.lower {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.lower button {
+  background-color: #171D19;
+  color: #FFFFFF;
+  padding: 10px 50px;
+  border: 0px;
+  border-radius: 5px;
+  font-family: var(--main-font);
+}
+
+.lower button:hover {
+  background-color: #3F413C;
+}
+
+.lower p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
+
+.login-link, .login-link:visited {
+  color: #609E76;
+}
+
+.login-link:hover {
+  color: #C9312C;
+}
